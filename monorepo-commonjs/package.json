@@ -1,0 +1,10 @@
+{
+  "name": "alpha",
+  "private": true,
+  "scripts": {
+    "start:dua": "npm run start -w=@alpha/dua "
+  },
+  "workspaces": [
+    "./apps/*"
+  ]
+}

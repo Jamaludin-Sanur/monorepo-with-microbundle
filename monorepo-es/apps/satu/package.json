@@ -1,0 +1,18 @@
+{
+  "name": "@mono/satu",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./index.js",
+  "main": "./dist/index.js", 
+  "module": "./dist/index.modern.mjs",
+  "scripts": {
+    "start": "node ./index.js",
+    "build":"microbundle --format=modern"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "microbundle": "0.15.1"
+  }
+}

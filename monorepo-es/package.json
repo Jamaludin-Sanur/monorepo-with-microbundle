@@ -1,0 +1,11 @@
+{
+  "name": "beta",
+  "private": true,
+  "scripts": {
+    "start:dua": "npm run start -w=@mono/dua ",
+    "build": "npm run build -w=@mono/satu && npm run build -w=@mono/dua"
+  },
+  "workspaces": [
+    "./apps/*"
+  ]
+}
