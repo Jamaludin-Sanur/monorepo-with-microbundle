@@ -1,11 +1,11 @@
 {
-  "name": "monorepo-cra18",
+  "name": "monorepo-cra16",
   "private": true,
   "scripts": {
     "start:three": "npm run start -w=@cra/three",
     "build": "npm run build -w=@cra/one && npm run build -w=@cra/two"
   },
   "workspaces": [
-    "./packages/*"
+    "./apps/*"
   ]
 }
